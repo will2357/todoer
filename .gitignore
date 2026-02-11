@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Django
+db.sqlite3
+media/
+local_settings.py
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.secrets
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.log
+tmp/
+temp/
