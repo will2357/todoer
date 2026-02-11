@@ -7,7 +7,9 @@ authors = [
     { name = "will2357", email = "will.highducheck@gmail.com" }
 ]
 requires-python = "==3.9.1"
-dependencies = []
+dependencies = [
+    "django==3.1.6",
+]
 
 [project.scripts]
 todoer = "todoer:main"
